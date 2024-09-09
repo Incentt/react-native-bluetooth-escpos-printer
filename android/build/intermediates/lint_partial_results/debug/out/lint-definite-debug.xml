@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.1" type="incidents">
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="33"
+            replacement="35"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*projectDir}/build.gradle"
+            line="24"
+            column="9"
+            startOffset="476"
+            endLine="24"
+            endColumn="28"
+            endOffset="495"/>
+    </incident>
+
+    <incident
+        id="GradleDynamicVersion"
+        severity="warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.facebook.react:react-native:+)">
+        <fix-data coordinate="com.facebook.react:react-native:+"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*projectDir}/build.gradle"
+            line="47"
+            column="20"
+            startOffset="918"
+            endLine="47"
+            endColumn="55"
+            endOffset="953"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.tools.build:gradle than 7.3.1 is available: 8.6.0">
+        <fix-replace
+            description="Change to 8.6.0"
+            family="Update versions"
+            oldString="7.3.1"
+            replacement="8.6.0"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*projectDir}/build.gradle"
+            line="12"
+            column="9"
+            startOffset="261"
+            endLine="12"
+            endColumn="57"
+            endOffset="309"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.4.1"
+            replacement="1.7.0"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*projectDir}/build.gradle"
+            line="48"
+            column="20"
+            startOffset="973"
+            endLine="48"
+            endColumn="56"
+            endOffset="1009"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core than 1.7.0 is available: 1.13.1">
+        <fix-replace
+            description="Change to 1.13.1"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.13.1"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*projectDir}/build.gradle"
+            line="49"
+            column="20"
+            startOffset="1029"
+            endLine="49"
+            endColumn="46"
+            endOffset="1055"/>
+    </incident>
+
+</incidents>

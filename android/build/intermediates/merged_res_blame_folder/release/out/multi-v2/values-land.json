@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-mergeReleaseResources-17:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-merged_res-19:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

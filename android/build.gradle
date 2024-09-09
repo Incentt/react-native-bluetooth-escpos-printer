@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://repo.spring.io/plugins-release/" }
+        maven {
+            url "$rootDir/../node_modules/react-native/android"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    sourceSets {
+        main {
+            aidl.srcDirs = ['src/main/java']
+        }
+    }
+}
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://repo.spring.io/plugins-release/" }
+    maven {
+        url "$rootDir/../node_modules/react-native/android"
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.core:core:1.7.0'
+    implementation "com.google.zxing:core:3.4.1"
+}

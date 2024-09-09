@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.1" type="conditional_incidents">
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getName: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/BluetoothService.java"
+            line="131"
+            column="20"
+            startOffset="4496"
+            endLine="131"
+            endColumn="53"
+            endOffset="4529"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getName: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_SCAN" message="Missing permissions required by BluetoothAdapter.cancelDiscovery: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/BluetoothService.java"
+            line="208"
+            column="13"
+            startOffset="6854"
+            endLine="208"
+            endColumn="39"
+            endOffset="6880"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_SCAN"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.cancelDiscovery: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/BluetoothService.java"
+            line="227"
+            column="27"
+            startOffset="7477"
+            endLine="227"
+            endColumn="78"
+            endOffset="7528"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothSocket.connect: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/BluetoothService.java"
+            line="244"
+            column="17"
+            startOffset="8130"
+            endLine="244"
+            endColumn="35"
+            endOffset="8148"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothSocket.connect: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getName: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/BluetoothService.java"
+            line="273"
+            column="20"
+            startOffset="9057"
+            endLine="273"
+            endColumn="55"
+            endOffset="9092"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getName: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getBondState: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="355"
+            column="21"
+            startOffset="14415"
+            endLine="355"
+            endColumn="42"
+            endOffset="14436"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getBondState: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getName: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="358"
+            column="37"
+            startOffset="14596"
+            endLine="358"
+            endColumn="65"
+            endOffset="14624"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getName: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="134"
+            column="49"
+            startOffset="5920"
+            endLine="134"
+            endColumn="75"
+            endOffset="5946"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getName: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="138"
+            column="25"
+            startOffset="6102"
+            endLine="138"
+            endColumn="48"
+            endOffset="6125"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getName: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothAdapter.disable: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="158"
+            column="21"
+            startOffset="6807"
+            endLine="158"
+            endColumn="70"
+            endOffset="6856"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.disable: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="186"
+            column="49"
+            startOffset="7954"
+            endLine="186"
+            endColumn="75"
+            endOffset="7980"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getName: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="190"
+            column="25"
+            startOffset="8136"
+            endLine="190"
+            endColumn="48"
+            endOffset="8159"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getName: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_SCAN" message="Missing permissions required by BluetoothAdapter.startDiscovery: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="201"
+            column="18"
+            startOffset="8565"
+            endLine="201"
+            endColumn="42"
+            endOffset="8589"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_SCAN"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.startDiscovery: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_SCAN" message="Missing permissions required by BluetoothAdapter.isDiscovering: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="249"
+            column="34"
+            startOffset="10119"
+            endLine="249"
+            endColumn="57"
+            endOffset="10142"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_SCAN"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.isDiscovering: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_SCAN" message="Missing permissions required by BluetoothAdapter.cancelDiscovery: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="250"
+            column="17"
+            startOffset="10162"
+            endLine="250"
+            endColumn="42"
+            endOffset="10187"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_SCAN"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.cancelDiscovery: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="287"
+            column="61"
+            startOffset="11865"
+            endLine="287"
+            endColumn="87"
+            endOffset="11891"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.getName: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-bluetooth-escpos-printer*debug*sourceProvider*0*javaDir*0}/cn/jystudio/bluetooth/RNBluetoothManagerModule.java"
+            line="291"
+            column="37"
+            startOffset="12095"
+            endLine="291"
+            endColumn="60"
+            endOffset="12118"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.getName: %1$s"/>
+        </map>
+    </incident>
+
+</incidents>

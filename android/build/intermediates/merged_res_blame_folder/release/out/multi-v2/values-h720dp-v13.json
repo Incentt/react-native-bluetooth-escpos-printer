@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-merged_res-19:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-mergeReleaseResources-17:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

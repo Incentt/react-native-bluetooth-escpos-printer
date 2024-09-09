@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-merged_res-19:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-mergeReleaseResources-17:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

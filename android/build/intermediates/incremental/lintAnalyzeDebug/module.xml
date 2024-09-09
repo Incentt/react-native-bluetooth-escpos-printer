@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android"
+    name=":react-native-bluetooth-escpos-printer"
+    type="LIBRARY"
+    maven="bluetoothPrinter:react-native-bluetooth-escpos-printer:"
+    gradle="7.3.1"
+    buildFolder="build"
+    bootClassPath="C:\Users\peebe\AppData\Local\Android\Sdk\platforms\android-33\android.jar;C:\Users\peebe\AppData\Local\Android\Sdk\build-tools\33.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

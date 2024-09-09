@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-merged_res-19:/menu/example_menu.xml",
+        "source": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-core-1.7.0-0:/menu/example_menu.xml"
+    },
+    {
+        "merged": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-merged_res-19:/menu/example_menu2.xml",
+        "source": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-core-1.7.0-0:/menu/example_menu2.xml"
+    }
+]

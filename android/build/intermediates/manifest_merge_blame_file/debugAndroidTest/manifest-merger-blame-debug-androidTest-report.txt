@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.jystudio.bluetooth.test" >
+4
+5    <uses-sdk
+5-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:5:15-41
+7        android:targetSdkVersion="33" />
+7-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:11:5-15:76
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:13:22-53
+13        android:label="Tests for cn.jystudio.bluetooth.test"
+13-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:15:22-74
+14        android:targetPackage="cn.jystudio.bluetooth.test" />
+14-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-74
+16-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-71
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+17-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+18-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+19-->[:react-native-bluetooth-escpos-printer] C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+20
+21    <application
+21-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:7:5-9:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] C:\Users\peebe\.gradle\caches\transforms-3\0991db68b3767ab07b84b2da1e395e2c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true" >
+24        <uses-library android:name="android.test.runner" />
+24-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:8:9-60
+24-->C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12754319291821348115.xml:8:23-57
+25
+26        <provider
+26-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+27            android:name="androidx.startup.InitializationProvider"
+27-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+28            android:authorities="cn.jystudio.bluetooth.test.androidx-startup"
+28-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+29            android:exported="false" >
+29-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+30            <meta-data
+30-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+31                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+32                android:value="androidx.startup" />
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\peebe\.gradle\caches\transforms-3\597e6d90501ba557d6816eee52f95623\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+33            <meta-data
+33-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\peebe\.gradle\caches\transforms-3\c01f37693d547b1dba45ff3067e8a622\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+34                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\peebe\.gradle\caches\transforms-3\c01f37693d547b1dba45ff3067e8a622\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+35                android:value="androidx.startup" />
+35-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\peebe\.gradle\caches\transforms-3\c01f37693d547b1dba45ff3067e8a622\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+36        </provider>
+37    </application>
+38
+39</manifest>

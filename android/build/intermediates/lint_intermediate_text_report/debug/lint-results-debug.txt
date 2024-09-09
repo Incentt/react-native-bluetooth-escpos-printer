@@ -1,0 +1,122 @@
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\BluetoothService.java:131: Error: Missing permissions required by BluetoothDevice.getName: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+            bundle.put(DEVICE_NAME, device.getName());
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\BluetoothService.java:208: Error: Missing permissions required by BluetoothAdapter.cancelDiscovery: android.permission.BLUETOOTH_SCAN [MissingPermission]
+            mAdapter.cancelDiscovery();
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\BluetoothService.java:227: Error: Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                    tmp = mmDevice.createRfcommSocketToServiceRecord(MY_UUID);
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\BluetoothService.java:244: Error: Missing permissions required by BluetoothSocket.connect: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                mmSocket.connect();
+                ~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\BluetoothService.java:273: Error: Missing permissions required by BluetoothDevice.getName: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+            bundle.put(DEVICE_NAME, mmDevice.getName());
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:134: Error: Missing permissions required by BluetoothAdapter.getBondedDevices: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+            Set<BluetoothDevice> boundDevices = adapter.getBondedDevices();
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:138: Error: Missing permissions required by BluetoothDevice.getName: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                    obj.put("name", d.getName());
+                        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:158: Error: Missing permissions required by BluetoothAdapter.disable: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+            promise.resolve(!adapter.isEnabled() || adapter.disable());
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:186: Error: Missing permissions required by BluetoothAdapter.getBondedDevices: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+            Set<BluetoothDevice> boundDevices = adapter.getBondedDevices();
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:190: Error: Missing permissions required by BluetoothDevice.getName: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                    obj.put("name", d.getName());
+                        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:201: Error: Missing permissions required by BluetoothAdapter.startDiscovery: android.permission.BLUETOOTH_SCAN [MissingPermission]
+            if (!adapter.startDiscovery()) {
+                 ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:249: Error: Missing permissions required by BluetoothAdapter.isDiscovering: android.permission.BLUETOOTH_SCAN [MissingPermission]
+            if (adapter!=null && adapter.isDiscovering()) {
+                                 ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:250: Error: Missing permissions required by BluetoothAdapter.cancelDiscovery: android.permission.BLUETOOTH_SCAN [MissingPermission]
+                adapter.cancelDiscovery();
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:287: Error: Missing permissions required by BluetoothAdapter.getBondedDevices: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                        Set<BluetoothDevice> boundDevices = adapter.getBondedDevices();
+                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:291: Error: Missing permissions required by BluetoothDevice.getName: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                                obj.put("name", d.getName());
+                                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:355: Error: Missing permissions required by BluetoothDevice.getBondState: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                if (device.getBondState() != BluetoothDevice.BOND_BONDED) {
+                    ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\src\main\java\cn\jystudio\bluetooth\RNBluetoothManagerModule.java:358: Error: Missing permissions required by BluetoothDevice.getName: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+                        deviceFound.put("name", device.getName());
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingPermission":
+   This check scans through your code and libraries and looks at the APIs
+   being used, and checks this against the set of permissions required to
+   access those APIs. If the code using those APIs is called at runtime, then
+   the program will crash.
+
+   Furthermore, for permissions that are revocable (with targetSdkVersion 23),
+   client code must also be prepared to handle the calls throwing an exception
+   if the user rejects the request for permission at runtime.
+
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build.gradle:24: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdkVersion 33
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build.gradle:12: Warning: A newer version of com.android.tools.build:gradle than 7.3.1 is available: 8.6.0 [AndroidGradlePluginVersion]
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build.gradle:48: Warning: A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build.gradle:49: Warning: A newer version of androidx.core:core than 1.7.0 is available: 1.13.1 [GradleDependency]
+    implementation 'androidx.core:core:1.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\peebe\Desktop\WorkStuff\git\bluetooth-printer-react-native\node_modules\react-native-bluetooth-escpos-printer\android\build.gradle:47: Warning: Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.facebook.react:react-native:+) [GradleDynamicVersion]
+    implementation 'com.facebook.react:react-native:+'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDynamicVersion":
+   Using + in dependencies lets you automatically pick up the latest available
+   version rather than a specific, named version. However, this is not
+   recommended; your builds are not repeatable; you may have tested with a
+   slightly different version than what the build server used. (Using a
+   dynamic version as the major version number is more problematic than using
+   it in the minor version position.)
+
+17 errors, 5 warnings

@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-merged_res-19:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "cn.jystudio.bluetooth.react-native-bluetooth-escpos-printer-mergeReleaseResources-17:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\peebe\\.gradle\\caches\\transforms-3\\0a9e9411343285b6854a4f17d193b940\\transformed\\appcompat-1.4.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}
